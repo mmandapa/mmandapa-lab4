@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #FFFFFF;
+  }
+  
+  .quarterly-goals {
+    position: absolute;
+    width: 320px;
+    height: 584px;
+    top: 467px;
+    left: 28px;
+    gap: 0px;
+    opacity: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1.34815px solid #2DBDB1;
+    border-radius: 10px;
+    background: #F2FFFE;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quarterly-goals-title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 27.5px;
+    color: #4B5853;
+    margin-bottom: 5px;
+  }
+  
+  .quarter {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 22.5px;
+    color: #4B5853;
+  }
+  
+  .pencil-logo {
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .pencil-logo img {
+    width: 19.97px;
+  }
+  
+  .goal {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+  
+  .goal-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .goal-checkbox {
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1.34815px solid #2DBDB1;
+    border-radius: 3.37037px;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .goal-checkbox:checked {
+    background-color: #2DBDB1;
+  }
+  
+  .goal-text {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16.25px;
+    color: #5A5A5A;
+    margin: 0;
+  }
+  
+  .goal-details {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .hashtag {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #5A5A5A;
+    display: block;
+    margin-left: 35px;
+  }
+  
+  #algorithms-hashtag {
+    color: #FFB987;
+  }
+  
+  #internship-hashtag {
+    color: #2DBDB1;
+    margin-bottom: 0.1cm;
+  }
+  
+  #interview-hashtag {
+    color: #EE8B72;
+    margin-bottom: 0.1cm;
+  }
+  
+  .progress {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #5A5A5A;
+    margin-left: auto;
+  }
+  
+  .add-goal {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 17.5px;
+    color: #5A5A5A;
+    margin-top: 10px;
+    padding-left: 0px;
+  }
+  
+  .line {
+    border-bottom: 1.25px solid rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+  }
+  
+  .last-line {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .quarterly-goals {
+      width: 280px;
+      padding: 15px;
+    }
+  
+    .quarterly-goals-title {
+      font-size: 24px;
+    }
+  
+    .goal-text {
+      font-size: 14px;
+    }
+  
+    .progress,
+    .hashtag {
+      font-size: 14px;
+    }
+  
+    .add-goal {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 960px) {
+    .quarterly-goals {
+      width: 300px;
+      padding: 18px;
+    }
+  
+    .goal-text,
+    .progress,
+    .hashtag {
+      font-size: 15px;
+    }
+  
+    .add-goal {
+      font-size: 16px;
+    }
+  
+    dialog {
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    }
+  }

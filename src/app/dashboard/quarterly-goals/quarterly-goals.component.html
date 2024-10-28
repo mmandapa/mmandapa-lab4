@@ -1,1 +1,67 @@
-<p>quarterly-goals works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarterly Goals Component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quarterly-goals.component.scss">
+</head>
+<body>
+    <div class="quarterly-goals">
+        <div class="header">
+            <div class="header-content">
+                <div class="quarterly-goals-title">Quarterly Goals</div>
+                <div class="quarter">Fall 2020</div>
+            </div>
+            <div class="pencil-logo">
+                <img src="Group.png" alt="Pencil logo" id="edit-goals-btn">
+            </div>
+        </div>
+
+        <div class="goal-list">
+            <div class="goal">
+                <label class="goal-label">
+                    <input type="checkbox" class="goal-checkbox">
+                    <span class="goal-text">Do well in algorithms class...</span>
+                </label>
+                <div class="goal-details">
+                    <span class="hashtag" id="algorithms-hashtag">#class-algorithms</span>
+                    <span class="progress">4 / 5</span>
+                </div>
+                <div class="line"></div> 
+            </div>
+
+            <div class="goal">
+                <label class="goal-label">
+                    <input type="checkbox" class="goal-checkbox">
+                    <span class="goal-text">Apply to all internships</span>
+                </label>
+                <div class="goal-details">
+                    <span class="hashtag" id="internship-hashtag">#apply-internships</span>
+                    <span class="progress">2 / 3</span>
+                </div>
+                <div class="line"></div> 
+            </div>
+
+            <div class="goal">
+                <label class="goal-label">
+                    <input type="checkbox" class="goal-checkbox">
+                    <span class="goal-text">Technical interview prep</span>
+                </label>
+                <div class="goal-details">
+                    <span class="hashtag" id="interview-hashtag">#interview-technical</span>
+                    <span class="progress">1 / 2</span>
+                </div>
+                <div class="line last-line"></div> 
+            </div>
+        </div>
+
+        <div class="add-goal" id="add-goal-btn">
+            + Add a quarter goal
+        </div>
+    </div>
+
+    <script src="quarterly-goals.components.js"></script>
+</body>
+</html>
